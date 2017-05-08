@@ -20,7 +20,7 @@ public class Readdata {
 		 path=".//Userdata.xlsx";
 		fis = new FileInputStream(new File(path));
 		 wb = new XSSFWorkbook(fis);
-		 sh = wb.getSheet("Data");//
+		 sh = wb.getSheet("Data");
 	}
 	public String exceldata(int row,int column){
 		String exceldata;
